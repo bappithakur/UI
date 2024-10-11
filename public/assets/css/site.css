@@ -1,0 +1,95 @@
+body {
+  background-color: #f1f0f0;
+}
+
+body .logo-small {
+  display: none;
+}
+
+body.enlarge-menu .logo-small {
+  display: block;
+}
+
+.ant-tabs-nav {
+  margin-bottom: 0 !important;
+}
+
+.ant-tabs-content-holder {
+  background-color: #fff;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.ant-drawer-wrapper-body .ant-drawer-header {
+  padding: 8px 12px;
+}
+
+.ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title {
+  font-weight: 400;
+  /* text-transform: uppercase; */
+  font-size: 13px;
+  padding-top: 3px;
+}
+
+[data-simplebar] {
+  overflow-y: scroll;
+}
+
+[data-simplebar]::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 100px;
+  background-color: transparent;
+}
+
+[data-simplebar]::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+[data-simplebar]::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 100px;
+  background-color: #777d95;
+}
+
+.ant-tabs-content-holder .toolbar-area {
+  padding: 5px 5px;
+  /* background: #f1f0f0; */
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.ant-pagination-jump-next,
+.ant-pagination-jump-prev,
+.ant-pagination-next,
+.ant-pagination-prev,
+.ant-pagination-item {
+  margin-right: 0;
+}
+.ant-pagination-jump-next {
+  display: none;
+}
+
+.ant-tabs-content .ant-tabs.ant-tabs-card {
+  background-color: #f1f0f0;
+}
+.thumb-lg {
+  height: 60px !important;
+  width: 60px !important;
+}
+
+.ant-pagination .ant-pagination-item-link .anticon svg {
+  margin-top: -6px;
+}
+.ant-message .anticon {
+  top: -3px !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.footer {
+  background: #b9b2b2;
+  padding: 4px 10px;
+  border-top: 0;
+}

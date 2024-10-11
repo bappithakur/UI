@@ -1,0 +1,37 @@
+[
+  {
+    "group": "Main",
+    "menu": [
+      {
+        "id": 1,
+        "title": "Home",
+        "icon": "IconHome",
+        "items": [
+          { "title": "Home", "url": "/home" },
+          { "title": "About", "url": "/about" }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Crm",
+        "icon": "IconBallFootball",
+        "url": "/home",
+        "items": []
+      }
+    ]
+  },
+  {
+    "group": "Digital Farming",
+    "menu": [
+      {
+        "id": 1,
+        "title": "Farmer Registeration",
+        "icon": "IconBrandEnvato",
+        "items": [
+          { "title": "Customers", "url": "/home" },
+          { "title": "Reports", "url": "/about" }
+        ]
+      }
+    ]
+  }
+]
